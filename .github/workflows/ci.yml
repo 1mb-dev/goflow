@@ -8,18 +8,4 @@ on:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-go@v5
-        with:
-          go-version: "1.23"
-
-      - run: go mod verify
-
-      - uses: golangci/golangci-lint-action@v7
-
-      - run: go test -race ./...
-
-      - run: go build ./...
+    uses: 1mb-dev/.github/.github/workflows/ci-go.yml@main
