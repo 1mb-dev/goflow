@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/streaming/stream"
-	"github.com/vnykmshr/goflow/pkg/streaming/writer"
+	"github.com/1mb-dev/goflow/pkg/streaming/stream"
+	"github.com/1mb-dev/goflow/pkg/streaming/writer"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/internal/testutil"
 )
 
 func TestNew(t *testing.T) {

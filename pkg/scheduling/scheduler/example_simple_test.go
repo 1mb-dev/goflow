@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 func ExampleScheduler_basic() {

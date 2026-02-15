@@ -24,7 +24,7 @@ We take the security of goflow seriously. If you believe you have found a securi
 
 Instead, please report them via one of the following methods:
 
-1. **Preferred**: Use GitHub's [Security Advisories](https://github.com/vnykmshr/goflow/security/advisories/new) feature
+1. **Preferred**: Use GitHub's [Security Advisories](https://github.com/1mb-dev/goflow/security/advisories/new) feature
 2. **Alternative**: Email the maintainers directly (check the repository for contact information)
 
 ### What to Include in Your Report
@@ -106,7 +106,7 @@ We regularly scan dependencies for vulnerabilities using:
 - Gosec security scanner
 - Weekly automated security scans
 
-See our [CI workflows](https://github.com/vnykmshr/goflow/tree/main/.github/workflows) for details.
+See our [CI workflows](https://github.com/1mb-dev/goflow/tree/main/.github/workflows) for details.
 
 ## Security Scanning
 

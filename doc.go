@@ -20,8 +20,8 @@ Streaming (pkg/streaming):
 Example usage:
 
 	import (
-		"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-		"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+		"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+		"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 	)
 
 	limiter, _ := bucket.NewSafe(10, 20) // 10 RPS, burst 20

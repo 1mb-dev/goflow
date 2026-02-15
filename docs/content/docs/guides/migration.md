@@ -59,7 +59,7 @@ The `pkg/common/context` package provided thin wrappers around standard library 
 
 ```go
 // Old (removed)
-import "github.com/vnykmshr/goflow/pkg/common/context"
+import "github.com/1mb-dev/goflow/pkg/common/context"
 ctx, cancel := context.WithTimeoutOrCancel(parent, 5*time.Second)
 
 // New (use standard library directly)

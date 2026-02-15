@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/vnykmshr/goflow/pkg/streaming/channel"
+	"github.com/1mb-dev/goflow/pkg/streaming/channel"
 )
 
 // BenchmarkChannelSend measures send operation performance.

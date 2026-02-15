@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 )
 
 // Allow reports whether an event may happen now.

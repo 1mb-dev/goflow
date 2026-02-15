@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	gferrors "github.com/vnykmshr/goflow/pkg/common/errors"
-	"github.com/vnykmshr/goflow/pkg/common/validation"
+	gferrors "github.com/1mb-dev/goflow/pkg/common/errors"
+	"github.com/1mb-dev/goflow/pkg/common/validation"
 )
 
 // Limiter controls the number of concurrent operations that can happen

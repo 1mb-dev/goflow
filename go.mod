@@ -1,4 +1,4 @@
-module github.com/vnykmshr/goflow
+module github.com/1mb-dev/goflow
 
 go 1.23.0
 

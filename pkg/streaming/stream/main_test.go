@@ -18,7 +18,7 @@ import (
 // infinite streams with early termination (Limit).
 func TestMain(m *testing.M) {
 	goleak.VerifyTestMain(m,
-		goleak.IgnoreTopFunction("github.com/vnykmshr/goflow/pkg/streaming/stream.(*mapOperation[...]).apply"),
-		goleak.IgnoreTopFunction("github.com/vnykmshr/goflow/pkg/streaming/stream.(*filterOperation[...]).apply"),
+		goleak.IgnoreTopFunction("github.com/1mb-dev/goflow/pkg/streaming/stream.(*mapOperation[...]).apply"),
+		goleak.IgnoreTopFunction("github.com/1mb-dev/goflow/pkg/streaming/stream.(*filterOperation[...]).apply"),
 	)
 }

@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 )
 
 // Example demonstrates basic usage of the token bucket rate limiter

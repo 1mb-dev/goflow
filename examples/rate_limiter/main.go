@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/leakybucket"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/leakybucket"
 )
 
 func main() {

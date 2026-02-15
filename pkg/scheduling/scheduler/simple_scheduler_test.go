@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 func TestScheduler_BasicScheduling(t *testing.T) {

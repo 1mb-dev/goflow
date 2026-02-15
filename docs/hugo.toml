@@ -1,4 +1,4 @@
-baseURL = 'https://vnykmshr.github.io/goflow/'
+baseURL = 'https://1mb-dev.github.io/goflow/'
 languageCode = 'en-us'
 title = 'goflow'
 theme = 'hugo-book'
@@ -7,7 +7,7 @@ theme = 'hugo-book'
 [params]
   BookTheme = 'auto'
   BookToC = true
-  BookRepo = 'https://github.com/vnykmshr/goflow'
+  BookRepo = 'https://github.com/1mb-dev/goflow'
   BookEditPath = 'edit/main/docs/content'
   BookSection = 'docs'
   # Show breadcrumbs for navigation context
@@ -31,7 +31,7 @@ theme = 'hugo-book'
 [menu]
   [[menu.before]]
     name = "GitHub"
-    url = "https://github.com/vnykmshr/goflow"
+    url = "https://github.com/1mb-dev/goflow"
     weight = 10
   [[menu.before]]
     name = "Why goflow"
@@ -39,11 +39,11 @@ theme = 'hugo-book'
     weight = 15
   [[menu.before]]
     name = "API Docs"
-    url = "https://pkg.go.dev/github.com/vnykmshr/goflow"
+    url = "https://pkg.go.dev/github.com/1mb-dev/goflow"
     weight = 20
 
   # After menu (shown after sidebar content)
   [[menu.after]]
     name = "Examples"
-    url = "https://github.com/vnykmshr/goflow/tree/main/examples"
+    url = "https://github.com/1mb-dev/goflow/tree/main/examples"
     weight = 10

@@ -196,7 +196,7 @@ package main
 
 import (
     "net/http"
-    "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 )
 
 func main() {
@@ -226,7 +226,7 @@ import (
     "context"
     "log"
     "time"
-    "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+    "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 func main() {
@@ -263,7 +263,7 @@ package main
 import (
     "context"
     "fmt"
-    "github.com/vnykmshr/goflow/pkg/scheduling/pipeline"
+    "github.com/1mb-dev/goflow/pkg/scheduling/pipeline"
 )
 
 func main() {
@@ -311,7 +311,7 @@ import (
     "context"
     "fmt"
     "strings"
-    "github.com/vnykmshr/goflow/pkg/streaming/stream"
+    "github.com/1mb-dev/goflow/pkg/streaming/stream"
 )
 
 func main() {
@@ -344,10 +344,10 @@ import (
     "context"
     "net/http"
     "time"
-    "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-    "github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
-    "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
-    "github.com/vnykmshr/goflow/pkg/scheduling/pipeline"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
+    "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
+    "github.com/1mb-dev/goflow/pkg/scheduling/pipeline"
 )
 
 type WebService struct {
@@ -579,11 +579,11 @@ For Go applications that need concurrent request processing, background task exe
 
 ## API Reference
 
-See [pkg.go.dev/github.com/vnykmshr/goflow](https://pkg.go.dev/github.com/vnykmshr/goflow) for complete API documentation.
+See [pkg.go.dev/github.com/1mb-dev/goflow](https://pkg.go.dev/github.com/1mb-dev/goflow) for complete API documentation.
 
 ## Examples
 
-- [Rate Limiter](https://github.com/vnykmshr/goflow/tree/main/examples/rate_limiter)
-- [Worker Pool](https://github.com/vnykmshr/goflow/tree/main/examples/worker_pool)
-- [Streaming](https://github.com/vnykmshr/goflow/tree/main/examples/streaming)
-- [Web Service](https://github.com/vnykmshr/goflow/tree/main/examples/web-service)
+- [Rate Limiter](https://github.com/1mb-dev/goflow/tree/main/examples/rate_limiter)
+- [Worker Pool](https://github.com/1mb-dev/goflow/tree/main/examples/worker_pool)
+- [Streaming](https://github.com/1mb-dev/goflow/tree/main/examples/streaming)
+- [Web Service](https://github.com/1mb-dev/goflow/tree/main/examples/web-service)

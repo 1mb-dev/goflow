@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/vnykmshr/goflow/pkg/streaming/stream"
+	"github.com/1mb-dev/goflow/pkg/streaming/stream"
 )
 
 // BenchmarkFromSlice measures stream creation from slice.

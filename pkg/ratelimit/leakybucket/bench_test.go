@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 )
 
 // BenchmarkAllow measures the performance of Allow calls

@@ -1,9 +1,9 @@
 # goflow
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/vnykmshr/goflow.svg)](https://pkg.go.dev/github.com/vnykmshr/goflow)
-[![Go Report Card](https://goreportcard.com/badge/github.com/vnykmshr/goflow)](https://goreportcard.com/report/github.com/vnykmshr/goflow)
-[![CI](https://github.com/vnykmshr/goflow/actions/workflows/ci.yml/badge.svg)](https://github.com/vnykmshr/goflow/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/vnykmshr/goflow/branch/main/graph/badge.svg)](https://codecov.io/gh/vnykmshr/goflow)
+[![Go Reference](https://pkg.go.dev/badge/github.com/1mb-dev/goflow.svg)](https://pkg.go.dev/github.com/1mb-dev/goflow)
+[![Go Report Card](https://goreportcard.com/badge/github.com/1mb-dev/goflow)](https://goreportcard.com/report/github.com/1mb-dev/goflow)
+[![CI](https://github.com/1mb-dev/goflow/actions/workflows/ci.yml/badge.svg)](https://github.com/1mb-dev/goflow/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/1mb-dev/goflow/branch/main/graph/badge.svg)](https://codecov.io/gh/1mb-dev/goflow)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A Go library for concurrent applications with rate limiting, task scheduling, and streaming.
@@ -30,7 +30,7 @@ A Go library for concurrent applications with rate limiting, task scheduling, an
 ## Installation
 
 ```bash
-go get github.com/vnykmshr/goflow
+go get github.com/1mb-dev/goflow
 ```
 
 ## Usage
@@ -44,9 +44,9 @@ import (
     "log"
     "time"
     
-    "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-    "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
-    "github.com/vnykmshr/goflow/pkg/scheduling/scheduler"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+    "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
+    "github.com/1mb-dev/goflow/pkg/scheduling/scheduler"
 )
 
 func main() {
@@ -95,8 +95,8 @@ func main() {
 
 ## Documentation
 
-- [Documentation Site](https://vnykmshr.github.io/goflow/)
-- [API Reference](https://pkg.go.dev/github.com/vnykmshr/goflow)
+- [Documentation Site](https://1mb-dev.github.io/goflow/)
+- [API Reference](https://pkg.go.dev/github.com/1mb-dev/goflow)
 - [Examples](./examples/)
 
 ## Development
@@ -116,7 +116,7 @@ The pre-commit hook automatically:
 
 ## Contributing
 
-See [Contributing](https://vnykmshr.github.io/goflow/contributing/) for contribution guidelines.
+See [Contributing](https://1mb-dev.github.io/goflow/contributing/) for contribution guidelines.
 
 ## License
 

@@ -120,10 +120,10 @@ Initial release with production-ready components:
 - Prometheus metrics integration
 - Comprehensive documentation and examples
 
-[Unreleased]: https://github.com/vnykmshr/goflow/compare/v1.4.0...HEAD
-[v1.4.0]: https://github.com/vnykmshr/goflow/releases/tag/v1.4.0
-[v1.3.0]: https://github.com/vnykmshr/goflow/releases/tag/v1.3.0
-[v1.2.0]: https://github.com/vnykmshr/goflow/releases/tag/v1.2.0
-[v1.0.2]: https://github.com/vnykmshr/goflow/releases/tag/v1.0.2
-[v1.0.1]: https://github.com/vnykmshr/goflow/releases/tag/v1.0.1
-[v1.0.0]: https://github.com/vnykmshr/goflow/releases/tag/v1.0.0
+[Unreleased]: https://github.com/1mb-dev/goflow/compare/v1.4.0...HEAD
+[v1.4.0]: https://github.com/1mb-dev/goflow/releases/tag/v1.4.0
+[v1.3.0]: https://github.com/1mb-dev/goflow/releases/tag/v1.3.0
+[v1.2.0]: https://github.com/1mb-dev/goflow/releases/tag/v1.2.0
+[v1.0.2]: https://github.com/1mb-dev/goflow/releases/tag/v1.0.2
+[v1.0.1]: https://github.com/1mb-dev/goflow/releases/tag/v1.0.1
+[v1.0.0]: https://github.com/1mb-dev/goflow/releases/tag/v1.0.0

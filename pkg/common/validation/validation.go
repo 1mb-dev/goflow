@@ -2,7 +2,7 @@
 package validation
 
 import (
-	gferrors "github.com/vnykmshr/goflow/pkg/common/errors"
+	gferrors "github.com/1mb-dev/goflow/pkg/common/errors"
 )
 
 // ValidatePositive validates that an integer value is positive (> 0).

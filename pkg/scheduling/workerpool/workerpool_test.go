@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/internal/testutil"
 )
 
 func TestWorkerPool_BasicExecution(t *testing.T) {

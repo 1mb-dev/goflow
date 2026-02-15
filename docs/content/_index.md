@@ -12,7 +12,7 @@ Go library for building concurrent applications with rate limiting, task schedul
 ## Installation
 
 ```bash
-go get github.com/vnykmshr/goflow
+go get github.com/1mb-dev/goflow
 ```
 
 ## Quick Example
@@ -24,8 +24,8 @@ import (
     "context"
     "log"
 
-    "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-    "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+    "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 func main() {
@@ -61,6 +61,6 @@ func main() {
 
 ## Resources
 
-- [API Reference](https://pkg.go.dev/github.com/vnykmshr/goflow) — Complete API documentation
-- [Examples](https://github.com/vnykmshr/goflow/tree/main/examples) — Working code examples
-- [GitHub Repository](https://github.com/vnykmshr/goflow) — Source code and issues
+- [API Reference](https://pkg.go.dev/github.com/1mb-dev/goflow) — Complete API documentation
+- [Examples](https://github.com/1mb-dev/goflow/tree/main/examples) — Working code examples
+- [GitHub Repository](https://github.com/1mb-dev/goflow) — Source code and issues

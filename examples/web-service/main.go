@@ -17,11 +17,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
-	"github.com/vnykmshr/goflow/pkg/scheduling/pipeline"
-	"github.com/vnykmshr/goflow/pkg/scheduling/scheduler"
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
+	"github.com/1mb-dev/goflow/pkg/scheduling/pipeline"
+	"github.com/1mb-dev/goflow/pkg/scheduling/scheduler"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 const (

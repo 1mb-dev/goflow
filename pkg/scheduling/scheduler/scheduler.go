@@ -9,7 +9,7 @@ import (
 
 	"github.com/robfig/cron/v3"
 
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 // Task represents a scheduled task.

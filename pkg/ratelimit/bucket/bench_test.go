@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/internal/testutil"
 )
 
 // mustNewSafe creates a new limiter or panics on error (for benchmarks only)

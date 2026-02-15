@@ -8,7 +8,7 @@ weight: 1
 ## Installation
 
 ```bash
-go get github.com/vnykmshr/goflow
+go get github.com/1mb-dev/goflow
 ```
 
 ## Basic Usage
@@ -21,9 +21,9 @@ import (
     "fmt"
     "log"
 
-    "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-    "github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
-    "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+    "github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
+    "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 func main() {
@@ -117,6 +117,6 @@ err = limiter.Wait(ctx)
 
 ## More Information
 
-- [API Documentation](https://pkg.go.dev/github.com/vnykmshr/goflow)
-- [Examples](https://github.com/vnykmshr/goflow/tree/main/examples)
-- [Source Code](https://github.com/vnykmshr/goflow)
+- [API Documentation](https://pkg.go.dev/github.com/1mb-dev/goflow)
+- [Examples](https://github.com/1mb-dev/goflow/tree/main/examples)
+- [Source Code](https://github.com/1mb-dev/goflow)

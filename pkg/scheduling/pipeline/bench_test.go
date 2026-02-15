@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 // BenchmarkBasicExecution measures basic pipeline execution performance.

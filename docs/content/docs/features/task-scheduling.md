@@ -12,7 +12,7 @@ goflow provides worker pools for dynamic task execution and a scheduler for time
 Worker pools manage a fixed number of goroutines that process submitted tasks.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+import "github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 
 // 5 workers, queue capacity of 100 tasks
 pool, err := workerpool.NewSafe(5, 100)
@@ -65,7 +65,7 @@ done := pool.Shutdown()
 The scheduler runs tasks at specified times or intervals using cron expressions.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/scheduling/scheduler"
+import "github.com/1mb-dev/goflow/pkg/scheduling/scheduler"
 
 sched := scheduler.New()
 sched.Start()
@@ -108,7 +108,7 @@ Standard cron format with optional seconds:
 Pipelines process data through multiple stages.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/scheduling/pipeline"
+import "github.com/1mb-dev/goflow/pkg/scheduling/pipeline"
 
 p := pipeline.New()
 
@@ -149,8 +149,8 @@ pool.SubmitWithContext(ctx, task)
 
 ## API Reference
 
-See [pkg.go.dev/github.com/vnykmshr/goflow/pkg/scheduling](https://pkg.go.dev/github.com/vnykmshr/goflow/pkg/scheduling) for complete API documentation.
+See [pkg.go.dev/github.com/1mb-dev/goflow/pkg/scheduling](https://pkg.go.dev/github.com/1mb-dev/goflow/pkg/scheduling) for complete API documentation.
 
 ## Examples
 
-- [Worker Pool Example](https://github.com/vnykmshr/goflow/tree/main/examples/worker_pool)
+- [Worker Pool Example](https://github.com/1mb-dev/goflow/tree/main/examples/worker_pool)

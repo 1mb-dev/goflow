@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	gferrors "github.com/vnykmshr/goflow/pkg/common/errors"
-	"github.com/vnykmshr/goflow/pkg/common/validation"
+	gferrors "github.com/1mb-dev/goflow/pkg/common/errors"
+	"github.com/1mb-dev/goflow/pkg/common/validation"
 )
 
 // Limit represents the maximum frequency of events per unit time.

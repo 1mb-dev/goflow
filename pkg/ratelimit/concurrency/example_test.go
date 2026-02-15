@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
 )
 
 // Example demonstrates basic usage of the concurrency limiter

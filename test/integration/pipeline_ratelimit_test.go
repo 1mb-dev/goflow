@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vnykmshr/goflow/internal/testutil"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
-	"github.com/vnykmshr/goflow/pkg/scheduling/pipeline"
-	"github.com/vnykmshr/goflow/pkg/scheduling/workerpool"
+	"github.com/1mb-dev/goflow/internal/testutil"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
+	"github.com/1mb-dev/goflow/pkg/scheduling/pipeline"
+	"github.com/1mb-dev/goflow/pkg/scheduling/workerpool"
 )
 
 // TestPipelineWithRateLimiting verifies that a pipeline can properly integrate

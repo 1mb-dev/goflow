@@ -14,7 +14,7 @@ Streams enable functional-style operations on collections.
 ```go
 import (
     "context"
-    "github.com/vnykmshr/goflow/pkg/streaming/stream"
+    "github.com/1mb-dev/goflow/pkg/streaming/stream"
 )
 
 result, _ := stream.FromSlice([]int{1, 2, 3, 4, 5}).
@@ -74,7 +74,7 @@ hasAdmin, _ := stream.FromSlice(users).
 The channel package provides utilities for channel-based communication with backpressure support.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/streaming/channel"
+import "github.com/1mb-dev/goflow/pkg/streaming/channel"
 
 ch, err := channel.NewSafe(channel.Config{
     Capacity:          100,
@@ -112,7 +112,7 @@ value, err := ch.Receive(ctx)
 The writer package provides buffered, async writing.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/streaming/writer"
+import "github.com/1mb-dev/goflow/pkg/streaming/writer"
 
 w, err := writer.NewSafe(writer.Config{
     BufferSize:    1000,
@@ -178,8 +178,8 @@ if err == context.DeadlineExceeded {
 
 ## API Reference
 
-See [pkg.go.dev/github.com/vnykmshr/goflow/pkg/streaming](https://pkg.go.dev/github.com/vnykmshr/goflow/pkg/streaming) for complete API documentation.
+See [pkg.go.dev/github.com/1mb-dev/goflow/pkg/streaming](https://pkg.go.dev/github.com/1mb-dev/goflow/pkg/streaming) for complete API documentation.
 
 ## Examples
 
-- [Streaming Example](https://github.com/vnykmshr/goflow/tree/main/examples/streaming)
+- [Streaming Example](https://github.com/1mb-dev/goflow/tree/main/examples/streaming)

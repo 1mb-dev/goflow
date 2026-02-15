@@ -12,7 +12,7 @@ goflow provides two rate limiting strategies: token bucket for bursty workloads 
 The token bucket algorithm allows bursts up to a configured capacity while maintaining an average rate.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+import "github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 
 // 100 requests per second with burst capacity of 200
 limiter, err := bucket.NewSafe(100, 200)
@@ -43,7 +43,7 @@ if limiter.Allow() {
 The leaky bucket enforces a strict, constant rate without allowing bursts.
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/ratelimit/leakybucket"
+import "github.com/1mb-dev/goflow/pkg/ratelimit/leakybucket"
 
 // Steady 10 requests per second, queue up to 100
 limiter, err := leakybucket.NewSafe(10, 100)
@@ -67,7 +67,7 @@ if limiter.Allow() {
 For controlling the number of concurrent operations rather than rate:
 
 ```go
-import "github.com/vnykmshr/goflow/pkg/ratelimit/concurrency"
+import "github.com/1mb-dev/goflow/pkg/ratelimit/concurrency"
 
 // Maximum 10 concurrent operations
 limiter, err := concurrency.NewSafe(10)
@@ -103,9 +103,9 @@ if err != nil {
 
 ## API Reference
 
-See [pkg.go.dev/github.com/vnykmshr/goflow/pkg/ratelimit](https://pkg.go.dev/github.com/vnykmshr/goflow/pkg/ratelimit) for complete API documentation.
+See [pkg.go.dev/github.com/1mb-dev/goflow/pkg/ratelimit](https://pkg.go.dev/github.com/1mb-dev/goflow/pkg/ratelimit) for complete API documentation.
 
 ## Examples
 
-- [Rate Limiter Example](https://github.com/vnykmshr/goflow/tree/main/examples/rate_limiter)
-- [Distributed Rate Limiting](https://github.com/vnykmshr/goflow/tree/main/examples/distributed-rate-limiting)
+- [Rate Limiter Example](https://github.com/1mb-dev/goflow/tree/main/examples/rate_limiter)
+- [Distributed Rate Limiting](https://github.com/1mb-dev/goflow/tree/main/examples/distributed-rate-limiting)

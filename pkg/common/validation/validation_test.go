@@ -3,7 +3,7 @@ package validation
 import (
 	"testing"
 
-	gferrors "github.com/vnykmshr/goflow/pkg/common/errors"
+	gferrors "github.com/1mb-dev/goflow/pkg/common/errors"
 )
 
 func TestValidatePositive(t *testing.T) {

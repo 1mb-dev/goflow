@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	gferrors "github.com/vnykmshr/goflow/pkg/common/errors"
-	"github.com/vnykmshr/goflow/pkg/common/validation"
-	"github.com/vnykmshr/goflow/pkg/ratelimit/bucket"
+	gferrors "github.com/1mb-dev/goflow/pkg/common/errors"
+	"github.com/1mb-dev/goflow/pkg/common/validation"
+	"github.com/1mb-dev/goflow/pkg/ratelimit/bucket"
 )
 
 // Limiter controls the rate at which events are allowed to happen using
