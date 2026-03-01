@@ -27,6 +27,23 @@ A Go library for concurrent applications with rate limiting, task scheduling, an
 - Backpressure control
 - Channel utilities
 
+## When to Use This
+
+Use goflow when you need rate limiting, worker pools, or task scheduling in Go and want them from a single, composable library.
+
+**Choose goflow over individual libraries ([uber-go/ratelimit](https://github.com/uber-go/ratelimit), [gammazero/workerpool](https://github.com/gammazero/workerpool)) when:**
+- You need rate limiting + worker pools + scheduling together and want consistent APIs across all three
+- You want built-in Prometheus metrics without extra wiring
+- You want multiple rate limiting algorithms (token bucket, leaky bucket, concurrency) in one package
+
+**Choose individual libraries instead when:**
+- You only need one primitive (e.g., just a rate limiter) and want the smallest dependency footprint
+- You need a specific algorithm not covered here
+
+**Use stdlib alone when:**
+- `sync.WaitGroup` and channels are enough for your concurrency pattern
+- You don't need rate limiting or scheduling
+
 ## Installation
 
 ```bash
