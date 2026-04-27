@@ -14,7 +14,7 @@ const TestTimeout = 5 * time.Second
 // WithTimeout creates a context with the default test timeout
 func WithTimeout(t *testing.T) (context.Context, context.CancelFunc) {
 	t.Helper()
-	return context.WithTimeout(context.Background(), TestTimeout)
+	return context.WithTimeout(context.Background(), TestTimeout) // #nosec G118 -- caller owns the returned cancel func per the function signature
 }
 
 // AssertNoError fails the test if err is not nil

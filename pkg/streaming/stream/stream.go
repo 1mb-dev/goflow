@@ -698,7 +698,7 @@ func (s *stream[T]) execute(ctx context.Context) (<-chan streamElement[T], error
 	// Create internal cancellable context for Close() to terminate goroutines.
 	// This is independent of the user's context - user context cancellation
 	// should propagate errors, but Close() should exit cleanly.
-	closeCtx, cancel := context.WithCancel(context.Background())
+	closeCtx, cancel := context.WithCancel(context.Background()) // #nosec G118 -- cancel stored in s.cancelExec, invoked by Close()
 
 	// Store cancel function so Close() can terminate goroutines
 	s.mu.Lock()
